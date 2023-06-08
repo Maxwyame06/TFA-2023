@@ -1,25 +1,260 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>DWMA project</title>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trajeco - Landing Page</title>
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link href="styles/style.css" rel="stylesheet" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="scripts/main.js" defer></script>
 
-  <meta name="description" content="">
-  <!-- Meta Partage -->
-  <!-- Favicon -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--meta google-->
+        <meta name="title" content="Wyame Maxence | Trajeco">
+        <meta name="description" content="Bienvenu sur mon site Trajeco">
 
-  <link rel="stylesheet" href="styles/app.css">
+        <!--OG CARD-->
+        <meta property="og:site_name" content="maxence-wyame" />
+        <meta property="og:title" content="Wyame Maxence | Trajeco" />
+        <meta property="og:description" content="La Landing page de mon site internet Trajeco." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://maxence-wyame.be/projets/tfa/" />
+        <meta property="og:image" content="http://maxence-wyame.be/projets/tfa/assets/images/logo.png" />
+        <meta property="og:image:width" content="1800">
+        <meta property="og:image:height" content="945">
 
-  <script src="scripts/main.js" defer></script>
-</head>
-<body>
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@damslow_">
+        <meta name="twitter:creator" content="@damslow_">
+        <meta name="twitter:title" content="Wyame Maxence | Trajeco - Landing page">
+        <meta name="twitter:description" content="La landing page de mon site internet Trajeco.">
+        <meta name="twitter:image" content="http://maxence-wyame.be/projets/tfa/assets/images/logo.png">
 
-  <img src="assets/images/logo-heaj.png">
-  <h1>Hello world</h1>
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon_io/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon_io/favicon-16x16.png">
+    </head>
 
-  <img src="assets/images/school.jpg" class="school-img">
+    <body>
+        <header class="header-landing">
+            <div>
+                <h1 class="title">Trajeco</h1>  
+                <p class="p-big p-big__header">Trajeco est un service de covoiturage qui vise à aider les jeunes de moins de 22 ans dans l’est du Brabant Wallon à résoudre leurs problèmes de mobilité quotidiens et lors de leurs activités et loisirs, en proposant des trajets le week-end et les jours de congé scolaires.</p>
+            </div> 
+            <nav class="nav-mobile">
+                <div class="burger-menu">
+                    <div class="burger-icon">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                    <div class="close-icon">
+                            <img class="close-icon__index" src="assets/images/cross.svg" alt="Icon croix">
+                    </div>
+                    <ul class="menu-items">
+                        <li class="actif-color__bg"><a href="index.html">Landing page</a></li>
+                        <li><a href="association.html">Association</a></li>
+                        <li><a href="interviews.html">Interviews</a></li>
+                        <li><a href="probleme.html">Problèmes</a></li>
+                        <li><a href="solution.html">Solutions</a></li>
+                        <li><a href="modules.html">Modules</a></li>
+                        <li><a href="touche-personnelle.html">Touche personnelle</a></li>
+                        <li><a href="presentation.html">Présentation</a></li>
+                    </ul>
+                </div>
+            </nav>
 
-</body>
+            <nav class="nav-desktop">
+                <a href="index.html" class="logo">Trajeco</a>
+                <ul class="nav-a">
+                    <li><a href="association.html">Association</a></li>
+                    <li><a href="interviews.html">Interviews</a></li>
+                    <li><a href="probleme.html">Problèmes</a></li>
+                    <li><a href="solution.html">Solutions</a></li>
+                    <li><a href="modules.html">Modules</a></li>
+                    <li><a href="touche-personnelle.html">Touche personnelle</a></li>
+                    <li><a href="presentation.html">Présentation</a></li>
+                </ul>
+            </nav>
+            <div class="darkmode">
+                <img class="sun" src="assets/images/sun.svg" alt="Icon soleil"/>
+                <img class="moon hide" src="assets/images/moon.svg" alt="Icon lune" />
+            </div>
+        </header>
+
+        <main class="container">    
+            <section class="section-margB__150">
+                <div class="section1 grid-section grid-section1">
+                    <div class="marg-el__20 grid-el__2">
+                        <h2 class="marg-el__20 grid-el__2 marg-left">Une association</h2>
+                        <h3 class="marg-el__20 grid-el__2 marg-left">Service d’aide aux jeunes et aux familles</h3>
+                        <p class="marg-el__20 grid-el__2  width-el marg-left">L’AMO est une association qui offre une aide préventive aux jeunes et à leurs familles, en développant des actions de prévention éducatives et sociales à travers divers moyens tel que des animations dans les écoles, une présence dans les rues, des points d’information et des suivis individuel. Leur service couvre l’Est du Brabant Wallon.</p>
+                    </div>
+                
+                    <div class="btn-parent">
+                        <div class="btn-landing">
+                            <a href="association.html">Mon association</a>
+                        </div>
+                    </div>
+                
+                    <img data-aos="zoom-in" 
+                        class="marg-el__20 grid-el__1 img"
+                        src="assets/images/collapse3.svg"
+                        alt="Montage photo de plusieurs photo de l'association"      
+                        loading="lazy"  
+                        decoding="async">
+                </div>
+            </section>
+            
+            <section class="section-margB__200">
+                <div>
+                    <div class="section2 grid-section2">
+                        <div class="grid-el__8"></div>
+                        <h2 class="marg-index grid-el__9">Les rencontres</h2>
+                        <h3 class="marg-index__20 grid-el__10">Les rendez-vous</h3>
+                        <h4 class="marg-index__20 surlender grid-el__4">Assistant</h4>
+                        <p class="marg-index__120 grid-el__5">J’ai eu un rendez-vous avec un assistant de direction, notre discussion a été très enrichissante. Elle m’a permis d’identifier les premiers points faibles de l’association mais sans réellement les comprendre.</p>
+                        <h4 class="marg-index__20 surlender grid-el__6">Éducateurs</h4>
+                        <p class="marg-index__120 grid-el__7">Pour obtenir une perspective différente et mieux appréhender les problèmes, j’ai sollicité un rendez-vous avec deux éducateurs et deux membres de l’association. Cette démarche m’a permis d’avoir une autre vision sur la situation et de mieux comprendre les problèmes en question.</p>
+                        <div class="btn-landing grid-el__12">
+                            <a href="interviews.html">Mes interviews</a>
+                        </div>
+                        <img data-aos="zoom-in"
+                             class="responsive-img  grid-el__11"
+                             src="assets/images/rdv.jpg"
+                             srcset="assets/images/rdv@2x.png 2x"
+                             alt="Photo représentant un rendez-vous"      
+                             loading="lazy"  
+                             decoding="async">
+                    </div>
+                </div>
+            </section>
+            
+            <section class="section-margB__200">
+                <div class="section3">
+                    <h2 class="marg-el__20 text-center">Les problèmes</h2>
+                    <h3 class="marg-el__20 text-center">Problème clé à résoudre</h3>
+                    <p class="marg-el__20 padding-probleme text-center">L’analyse des entretiens a révélé plusieurs problèmes : les préjugés limitent l’initiative des jeunes, le manque de mobilité les empêche de participer pleinement aux activités, et cela conduit à un désengagement progressif. Le problème majeur est donc le manque de mobilité, entrainant une exclusion des jeunes de l’assistance avant qu’ils puissent en bénéficier pleinement, tant au sein de l’association que dans leur vie quotidienne.</p>
+                    <div class="display-btn">
+                        <div class="btn-landing">
+                            <a href="probleme.html">Ma problématique</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="section-margB__200">
+                <div class="section4 section-solution">
+                    <div class="grid-section3">
+                        <div class="grid-el__solutionB">
+                            <div class="grid-el__solution">
+                                <h2 class="">Une solution</h2>
+                                <p class="1">Ces entretiens m’ont permis d'émettre une hypothèse, de mettre à disposition une application de covoiturage.</p>
+                                <div class="btn-landing grid-el__solution-btn">
+                                    <a href="solution.html">Mes hypothèses</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-margB__150 test-overflow">
+                <div class="section1 grid-section grid-section1">
+                    <div class="marg-left__50 grid-el__21">
+                        <h2 class=" grid-el__21 marg-left">Modules développés</h2>
+                        <h3 class=" grid-el__21 marg-left">Un choix important</h3>
+                        <p class=" grid-el__21  width-el marg-left">Plus tard sur l’application on pourra y retrouver beaucoup de fonctionnalités telles que système de notation et d’avis, réservation des places, payements etc . Dans un premier temps il est important que l’application soit intuitive et efficace pour cela j’ai pensé à trois modules principaux.</p>
+                        <ul class="grid-el__21 marg-left">
+                            <li class="p-big">Recherche d'un trajet</li>
+                            <li class="p-big">Création d'un trajet</li>
+                            <li class="p-big">Notification</li>
+                        </ul>
+                    </div>
+                
+                    <div class="btn-parent-2">
+                        <div class="btn-landing">
+                            <a href="modules.html">Mes modules</a>
+                        </div>
+                    </div>
+                
+                    <img data-aos="zoom-in"
+                         class="grid-el__22 img-2"
+                         src="assets/images/mockup-2.jpg"
+                         srcset="assets/images/mockup-2@2x.jpg 2x"
+                         alt="Mockup de l'application"      
+                         loading="lazy"  
+                         decoding="async">
+                </div>
+            </section>
+            
+            <section class="section-margB__200">
+                <div class="section5">
+                    <div class="box">
+                        <div class="box-content">
+                            <h2 class="">Touche personnelle</h2>
+                            <p class="">Mettre sa touche personnelle signifie de passer par plusieurs phases tels que le benchmark, l’audit ou encore de faire un moodboard. Cela permet savoir vers quoi on se dirige.</p>
+                            <div class="display-btn">
+                                <div class="btn-landing__box">
+                                    <a href="touche-personnelle.html">Mon style</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="box-content">
+                            <h2 class="">Présentation</h2>
+                            <p class="">La présentation se divise en deux étapes : L’intégration d’un site web et une présentation orale, où nous exposons notre méthode de travail incluant les divers outils tels que Lean Canva.</p>
+                            <div class="display-btn">
+                                <div class="btn-landing__box">
+                                    <a href="presentation.html">Ma présentation</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+        </main>
+        
+        <footer class="section__footer">
+            <ul class="footer__list">
+                <li class="footer__item actif-color__text"><a href="index.html">Landing page</a></li>
+                <li class="footer__item"><a href="ui-kit.html">UI-Kit </a></li>
+                <li class="footer__item"><a href="credits.html">Crédits</a></li>
+            </ul>
+
+            <ul class="reseaux">
+                <li class="footer__item ">
+                    <a href="https://www.instagram.com/damslow_/?hl=fr">
+                        <svg class="reseaux__image" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12,2.16c3.2,0,3.58,0,4.85.07,3.25.15,4.77,1.69,4.92,4.92.06,1.27.07,1.65.07,4.85s0,3.59-.07,4.85c-.15,3.23-1.66,4.77-4.92,4.92-1.27.06-1.64.07-4.85.07s-3.58,0-4.85-.07c-3.26-.15-4.77-1.7-4.92-4.92-.06-1.27-.07-1.64-.07-4.85s0-3.58.07-4.85C2.38,3.92,3.9,2.38,7.15,2.23,8.42,2.18,8.8,2.16,12,2.16ZM12,0C8.74,0,8.33,0,7.05.07c-4.35.2-6.78,2.62-7,7C0,8.33,0,8.74,0,12S0,15.67.07,17c.2,4.36,2.62,6.78,7,7C8.33,24,8.74,24,12,24s3.67,0,4.95-.07c4.35-.2,6.78-2.62,7-7C24,15.67,24,15.26,24,12s0-3.67-.07-4.95c-.2-4.35-2.62-6.78-7-7C15.67,0,15.26,0,12,0Zm0,5.84A6.16,6.16,0,1,0,18.16,12,6.16,6.16,0,0,0,12,5.84ZM12,16a4,4,0,1,1,4-4A4,4,0,0,1,12,16ZM18.41,4.15a1.44,1.44,0,1,0,1.43,1.44A1.44,1.44,0,0,0,18.41,4.15Z" transform="translate(0 0)"/></svg>
+                    </a>
+                </li>
+                <li class="footer__item ">
+                    <a href="https://www.behance.net/">
+                        <svg class="reseaux__image " data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 15"><path d="M22,7H15V5h7Zm1.73,10c-.45,1.3-2,3-5.11,3s-5.56-1.73-5.56-5.68S15.39,8.4,18.53,8.4a5,5,0,0,1,5.37,4.43A13.55,13.55,0,0,1,24,15H16a2.7,2.7,0,0,0,4.59,2ZM16,13h5a2.24,2.24,0,0,0-2.48-2.22A2.29,2.29,0,0,0,16,13ZM6.47,20H0V5H7c5.48.08,5.58,5.44,2.72,6.91C13.13,13.19,13.25,20,6.47,20ZM3,11H6.58c2.51,0,2.91-3-.31-3H3Zm3.39,3H3v3H6.34C9.4,17,9.21,14,6.39,14Z" transform="translate(0 -5)"/></svg>
+                    </a>
+                </li>
+                <li class="footer__item ">
+                    <a href="https://twitter.com/damslow_">
+                        <svg class="reseaux__image " data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 19.4"><path d="M24,4.6a9,9,0,0,1-2.8.8,5.32,5.32,0,0,0,2.2-2.7,9.08,9.08,0,0,1-3.1,1.2,4.84,4.84,0,0,0-3.6-1.6,4.92,4.92,0,0,0-4.8,6A13.81,13.81,0,0,1,1.7,3.1,4.9,4.9,0,0,0,3.2,9.7,4,4,0,0,1,1,9.1,4.92,4.92,0,0,0,4.9,14a5.45,5.45,0,0,1-2.2.1,4.74,4.74,0,0,0,4.6,3.4,10.09,10.09,0,0,1-7.3,2A14,14,0,0,0,21.5,7.1,11.85,11.85,0,0,0,24,4.6Z" transform="translate(0 -2.3)"/></svg>  
+                    </a>
+                </li>
+            </ul>
+
+            <a href="#">© Wyame Maxence <span></span></a>
+        
+            <a class="dwm" href="http://dwm.re/">
+                <svg viewBox="0 0 228.06 74.38" xmlns="http://www.w3.org/2000/svg">
+                    <g fill-rule="evenodd">
+                        <path d="m17.78 0h-17.78v62.59h18.66c17.88 0 30.13-10.08 30.13-31.58s-12.26-31.01-31.02-31.01zm16.09 31c0 15-6.81 20.16-16.89 20.16h-2.36v-39.74h2.38c10.06 0 16.87 4.58 16.87 19.58zm18.86-31h15.11l2 33.31.3 15.74h.4c.88-5.66 2.07-10.46 3.16-15.74l4.3-17.47h9.28l4 17.47c1.09 5.19 2.17 10 3.16 15.74h.4c.1-5.75.19-10.55.39-15.74l1.84-33.31h14.12l-7.9 62.59h-15.6l-3.76-19.39a87.14 87.14 0 0 1 -1.77-11.9h-.3q-.57 6-1.67 11.9l-3.76 19.39h-15.11zm64.58 0h15.2l6.33 22.18 2.16 8.64h.39l2.17-8.64 6.34-22.18h15.21v62.59h-12.26v-19.39c0-7 1.28-22.27 1.88-29h-.3l-4.93 16.7-4.94 15.1h-7.11l-5-15.08-4.64-16.7h-.3c.69 6.72 1.88 22 1.88 29v19.37h-12v-62.59" />
+                        <path d="m183.22 74.38h44.84v-11.79h-44.84z" fill="#f6d94f" />
+                    </g>
+                </svg>
+            </a>
+        </footer>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    </body>
 </html>
